@@ -1,0 +1,21 @@
+{
+  "name": "learnbun",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "build": "bun build src/index.ts --outdir ./build"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@hono/graphql-server": "^0.4.0",
+    "graphql": "^16.8.0",
+    "hono": "^3.5.8"
+  }
+}
